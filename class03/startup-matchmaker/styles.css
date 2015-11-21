@@ -1,0 +1,88 @@
+.smt_nav{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-color: black;
+	border-bottom: 3px solid #ffff2b;
+
+}
+
+.smt_logo{
+	float: left;
+	width: 300px;
+	color: #ffff2b;
+	font-size: 28px;
+	font-family: "merriweather", georgia, serif;
+	margin-left: 90px;
+
+}
+
+.smt_nav_menu{
+	float: right;
+	margin: 10px 30px 10px 0;
+
+}
+
+.smt_nav_menu > li {
+	display: inline-block;
+	font-family: 'Source Sans Pro',arial, sans-serif ;
+	font-size: 20px;
+
+}
+
+.nav_item > a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'oswald', sans-serif;
+} 
+
+.smt_nav_menu > li > a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+.smt_nav_menu > li > a:hover {
+	color:#ffff2b;
+}
+
+.smt_tagline{
+	background-color: #cdcdcd;
+	padding: 30px;
+	text-align: center;
+}
+
+.tagline{
+	font-size: 27px;
+	font-family: 'merriweather';
+	
+}
+
+.smt_hero{
+	position: relative;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url(images/coworking.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+.smt_sidebar{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background: rgba(255,255,255,0.6);
+	width: 400px;
+	float: right;
+	padding: 30px;
+	margin: 30px;
+}

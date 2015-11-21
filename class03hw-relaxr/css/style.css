@@ -1,0 +1,242 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+
+.rlx_nav{
+     position: relative;
+     display: block;
+     overflow: hidden;
+     width: 100%;
+	background-color: #043049;
+}
+
+.rlx_logo{
+     float: left;
+     font-size: 45px;
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     margin-left: 90px;
+}
+
+.rlx_nav_menu{
+     float: right;
+     margin-right: 90px;
+}
+
+.rlx_nav_menu li {
+     display: inline-block;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     font-weight: lighter;
+     margin-top: 15px;     
+}
+
+.rlx_nav_menu li a{
+     color: #fce52e;
+     text-decoration: none;
+     padding: 20px;
+     display: block;
+
+}
+
+.rlx_nav_menu > li > a:hover {
+     color:white;
+}
+
+.main_content{
+     position: relative;
+     overflow: hidden;
+     display: block;
+     background-color: #efefee;
+     width: 100%;
+}
+
+.wrapper{
+     margin-left: 90px;
+     margin-right: 90px;
+}
+
+.left_block{
+     float: left;
+     width: 75%;
+     padding-right:30px;
+}
+
+.title{
+     font-size: 35px;
+     font-weight: 600;
+     font-family: 'Open Sans', sans-serif;
+     margin-bottom: 10px;
+     color: #053149;
+}
+
+.body_text{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     font-weight: lighter;
+     color: #606161;
+     
+}
+
+.drop_cap{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 60px;
+     font-weight: bold;
+     color: #606161;
+     float: left;
+     padding-right: 10px;
+     line-height: 65px;
+
+
+}
+
+
+.read_more_button {
+     float: right;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     color: #043049;
+     text-decoration: none;
+     padding-bottom: 30px;
+}
+.read_more_button a:hover;{
+     color: yellow;
+}
+
+.line{
+     border-top: 1px solid #043049;
+     position: relative;
+     top: 50px;
+}
+
+.right_block{
+     padding-left: 20px;
+}
+
+.post_one{
+     padding-bottom: 30px;
+}
+
+.post_two{
+     padding-top: 30px;
+     padding-bottom: 160px;
+}
+
+.rlx_h3{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 27px;
+     font-weight: 800;
+     color: #053149;
+     padding-top: 23px;
+
+}
+.learn_more {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     color: #043049;
+     text-decoration: none;
+}
+
+.list{
+     margin-bottom: 20px;
+}
+
+.list ul{
+     list-style: none;
+
+}
+
+.list li{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     font-weight: lighter;
+     color: #043049;
+
+}
+
+.about_text {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     font-weight: lighter;
+     color: #043049;
+     
+}
+
+.ad{
+     margin-top: 20px;
+}
+
+.button_container{
+     background-color: #f9e42e;
+     padding: 30px;
+}
+
+.sign_up_button {
+     border-radius: 5px;
+     font-weight: 800;
+     padding: 12px 0;
+     width: 280px;
+     text-align: center;
+     display: block;
+      margin: 0 auto;
+     font-family: 'Open Sans', sans-serif;
+     text-decoration: none;
+     background: #033048;
+     color: #fff;
+     font-size: 20px;
+}
+
+footer {
+     background: #121212;
+     padding: 20px 0 45px;
+     text-align: center;
+}
+
+footer .logo {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 40px;
+     color: #f9e42e;
+}
+
+footer ul li {
+     display: inline-block;
+     list-style: none;
+     padding-bottom: 40px;
+     padding-right: 50px;
+}
+
+footer p {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     color: #fff;
+     font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+

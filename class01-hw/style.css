@@ -1,0 +1,80 @@
+body{
+	background-color: #C7FAEA;
+}
+
+
+p,h1,h2,h3,h4,h5,h6,ul,li {
+	font-family: lato;
+}
+p{
+	color: #2E3D39;
+}
+section nav p {
+	text-align: center;
+	font-family: lato;
+	font-weight: thin;
+	letter-spacing: 5px;
+	font-size: 12px;
+
+}
+
+nav p a{
+	color: #62CCBD;
+	text-decoration: none;
+}
+section h1{
+	font-family: lato;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: #647F7C;
+	font-size: 35px;
+
+	text-align: center;
+}
+
+
+ul li {
+	margin-top: 50px;
+	color: #2E3D39;
+}
+
+li{
+	font-weight: 900;
+}
+
+h3{
+	letter-spacing: 5px;
+	color: #647F7C;
+}
+#about-me h3{
+	margin-top: 50px;
+}
+
+h4{
+	letter-spacing: 5px;
+	font-weight: bold;
+	color: #647F7C;
+}
+
+.wrapper{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#about-me{
+	margin-right: auto;
+	margin-left: auto;
+	width: 500px;
+
+}
+
+#education{
+	margin-bottom: 100px;
+}
+
+#education h4{
+	margin-top: 50px;
+	color: #647F7C;
+}
+
+
