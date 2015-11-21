@@ -1,6 +1,7 @@
 var total = 0;
 
 
+
 function currencyFormat(number) {
     // Turn the currency into a number
     number = parseFloat(number);
